@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+SPDX-FileCopyrightText: 2023 Deminder <tremminder@gmail.com>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+<schemalist gettext-domain="osd-volume-brightness-percentage">
+  <schema path="/org/gnome/shell/extensions/osd-volume-brightness-percentage/" id="org.gnome.shell.extensions.osd-volume-brightness-percentage">
+    <key type="s" name="number-position">
+      <default>"left"</default>
+      <summary>Position of OSD number if a level is shown (left, right, hidden)</summary>
+    </key>
+
+    <key type="s" name="icon-position">
+      <default>"hidden"</default>
+      <summary>Position of OSD icon if a level is shown (left, right, hidden)</summary>
+    </key>
+
+    <key type="b" name="adapt-panel-menu">
+      <default>false</default>
+      <summary>Adapt the audio I/O volume sliders in the panel menu</summary>
+    </key>
+
+    <key type="b" name="adapt-panel-menu-brightness">
+      <default>false</default>
+      <summary>Adapt the brightness slider in the panel menu</summary>
+    </key>
+
+    <key type="b" name="show-brightness-percentage">
+      <default>false</default>
+      <summary>Show brightness percentage indicator in the panel</summary>
+    </key>
+
+    <key type="b" name="show-sound-percentage">
+      <default>false</default>
+      <summary>Show sound volume percentage in the panel quick settings</summary>
+    </key>
+  </schema>
+</schemalist>
